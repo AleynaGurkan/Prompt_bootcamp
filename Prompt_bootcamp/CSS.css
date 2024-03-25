@@ -1,0 +1,37 @@
+/* Resize and center logo */
+header img, footer img {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto; /* Centers the logo */
+}
+
+/* Golden background for titles with black text */
+.card-title {
+    background-color: gold;
+    color: black;
+    padding: 5px;
+    text-align: center; /* Ensures title text is centered */
+}
+
+/* Gallery image styles */
+.gallery img {
+    height: 150px;
+    width: 200px;
+    object-fit: contain; /* Ensures content is not cropped */
+    transition: transform .2s; /* Smooth transition effect */
+}
+
+.gallery img:hover {
+    transform: scale(1.1); /* Scales image on hover */
+}
+
+/* Ensures uniform card height */
+.card {
+    height: 100%;
+}
+
+/* Align the navigation section to the left */
+.navbar-nav {
+    align-items: left;
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Movements Gallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        /* Include previously provided CSS here, along with any updates */
+        header img, footer img {
+            width: 250px;
+            height: 250px;
+            display: block;
+            margin: 0 auto; /* Centers the logo */
+        }
+
+        .card-title {
+            background-color: gold;
+            color: black;
+            padding: 5px;
+            text-align: center; /* Ensures title text is centered */
+        }
+
+        .gallery img {
+            height: 150px;
+            width: 200px;
+            object-fit: contain; /* Ensures content is not cropped */
+            transition: transform .2s; /* Smooth transition effect */
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1); /* Scales image on hover */
+        }
+
+        .card {
+            height: 100%; /* Ensures uniform card height */
+        }
+    </style>
+</head>
+<body>
+
+<header class="bg-dark py-3">
+    <div class="container">
+        <img src="images\logo.png" alt="Logo" class="img-fluid">
+    </div>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Art Movements</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<main class="container mt-4">
+    <section id="gallery" class="row">
+        <!-- Impressionism -->
+        <article class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images\1.png" class="card-img-top" alt="Impressionism">
+                <div class="card-body">
+                    <h5 class="card-title">Impressionism</h5>
+                    <p class="card-text">Focused on capturing the fleeting effects of light and color, Impressionism offers a fresh, spontaneous look at everyday subjects.</p>
+                </div>
+            </div>
+        </article>
+        
+        <!-- Expressionism -->
+        <article class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images\2.png" class="card-img-top" alt="Expressionism">
+                <div class="card-body">
+                    <h5 class="card-title">Expressionism</h5>
+                    <p class="card-text">Prioritizes the expression of emotional experience over physical reality, often using bold colors and dynamic compositions.</p>
+                </div>
+            </div>
+        </article>
+        
+        <!-- Cubism -->
+        <article class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images\3.png" class="card-img-top" alt="Cubism">
+                <div class="card-body">
+                    <h5 class="card-title">Cubism</h5>
+                    <p class="card-text">Breaks objects into abstract, geometric forms, suggesting multiple viewpoints simultaneously.</p>
+                </div>
+            </div>
+        </article>
+        
+        <!-- Futurism -->
+        <article class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images\4.png" class="card-img-top" alt="Futurism">
+                <div class="card-body">
+                    <h5 class="card-title">Futurism</h5>
+                    <p class="card-text">Emphasizes speed, technology, and dynamic movement, celebrating the energy of the modern world.</p>
+                </div>
+            </div>
+        </article>
+        
+        <!-- Surrealism -->
+        <article class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images\5.png" class="card-img-top" alt="Surrealism">
+                <div class="card-body">
+                    <h5 class="card-title">Surrealism</h5>
+                    <p class="card-text">Explores the world of dreams and the subconscious, combining surprising, often bizarre imagery.</p>
+                </div>
+            </div>
+        </article>
+        
+        <!-- Abstract Expressionism -->
+        <article class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images\6.png" class="card-img-top" alt="Abstract Expressionism">
+                <div class="card-body">
+                    <h5 class="card-title">Abstract Expressionism</h5>
+                    <p class="card-text">Focuses on the act of painting itself, using large, sweeping gestures to express personal freedom and emotional intensity.</p>
+                </div>
+            </div>
+        </article>
+        
+        <!-- Minimalism -->
+        <article class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images\7.png" class="card-img-top" alt="Minimalism">
+                <div class="card-body">
+                    <h5 class="card-title">Minimalism</h5>
+                    <p class="card-text">Reduces art to its simplest, most essential forms and colors, striving for purity and clarity.</p>
+                </div>
+            </div>
+        </article>
+        
+        <!-- Pop Art -->
+        <article class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images\8.png" class="card-img-top" alt="Pop Art">
+                <div class="card-body">
+                    <h5 class="card-title">Pop Art</h5>
+                    <p class="card-text">Draws from popular culture and mass media, presenting everyday images in bright, bold ways.</p>
+                </div>
+	    </div>
+        </article>
+     
+ 	<!-- Op Art -->
+        <article class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images\9.png" class="card-img-top" alt="Op Art">
+                <div class="card-body">
+                    <h5 class="card-title">Op Art</h5>
+                    <p class="card-text">Utilizes optical illusions and geometric patterns to create the impression of movement or vibrating spaces.</p>
+                </div>
+            </div>
+        </article>
+        
+        <!-- Dada -->
+        <article class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images\10.png" class="card-img-top" alt="Dada">
+                <div class="card-body">
+                    <h5 class="card-title">Dada</h5>
+                    <p class="card-text">Rejects conventional art forms and logic, favoring nonsense and irrationality as a protest against the status quo.</p>
+                </div>
+            </div>
+        </article>
+        
+        <!-- Art Nouveau -->
+        <article class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images\11.png" class="card-img-top" alt="Art Nouveau">
+                <div class="card-body">
+                    <h5 class="card-title">Art Nouveau</h5>
+                    <p class="card-text">Characterized by elegant, flowing lines and natural forms, aiming for a total art style that blends various elements harmoniously.</p>
+                </div>
+            </div>
+        </article>
+        
+        <!-- Neo-Impressionism -->
+        <article class="col-md-4 mb-4">
+            <div class="card">
+                <img src="images\12.png" class="card-img-top" alt="Neo-Impressionism">
+                <div class="card-body">
+                    <h5 class="card-title">Neo-Impressionism</h5>
+                    <p class="card-text">Advances Impressionism's interests in light and color through scientific methods and structured brushwork.</p>
+                </div>
+            </div>
+        </article>
+    </section>
+</main>
+
+<footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+        <img src="images\logo.png" alt="Logo" class="img-fluid">
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim

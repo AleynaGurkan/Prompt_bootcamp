@@ -1,0 +1,62 @@
+Website Prompts:
+
+#1 Prompt
+
+I want you to act as a front-end web developer.
+You will code a new website for the project using the following tools:
+Bootstrap framework using CDN for HTML, CSS.
+The website should be mobile-friendly and responsive.
+Additionally, in terms of layout and style, the site structure should also include the latest version of Twitter Bootstrap CSS classes.
+It is important to provide HTML, CSS codes as separate outputs.
+Also, you should add a navigation menu containing internal links to the headings in the page content.
+Do not comment on the code you write.
+Do you understand everything?
+If you understand all the requirements, please respond with yes or no.
+
+#2 Prompt
+
+I want a website that briefly showcases examples of art movements.
+The tags I want to include on my website are (header, main, nav, section, article, aside, footer).
+I want a logo in the header section of the page, and similarly, I want one logo in the footer section.
+I want the content of the page to be in a gallery view, with 150x200 sized images, with 6 images per grid, and I don't want the content of the images to be cropped.
+It would be nice if the images had a hover transition effect.
+Can you help me create this website?
+
+#3 Prompt
+
+Add a golden background to the titles of the art movements and change the text style color to black.
+Also, resize the logo to 250x250 and center it.
+Additionally, can you align the navigation section to the left?
+
+#4 Prompt
+
+The website should include only 12 art movements and every art movement should be listed on the homepage.
+
+#5 Prompt
+
+Add "Impressionism: Focused on capturing the fleeting effects of light and color, Impressionism offers a fresh, spontaneous look at everyday subjects.
+Expressionism: Prioritizes the expression of emotional experience over physical reality, often using bold colors and dynamic compositions.
+Cubism: Breaks objects into abstract, geometric forms, suggesting multiple viewpoints simultaneously.
+Futurism: Emphasizes speed, technology, and dynamic movement, celebrating the energy of the modern world.
+Surrealism: Explores the world of dreams and the subconscious, combining surprising, often bizarre imagery.
+Abstract Expressionism: Focuses on the act of painting itself, using large, sweeping gestures to express personal freedom and emotional intensity.
+Minimalism: Reduces art to its simplest, most essential forms and colors, striving for purity and clarity.
+Pop Art: Draws from popular culture and mass media, presenting everyday images in bright, bold ways.
+Op Art: Utilizes optical illusions and geometric patterns to create the impression of movement or vibrating spaces.
+Dada: Rejects conventional art forms and logic, favoring nonsense and irrationality as a protest against the status quo.
+Art Nouveau: Characterized by elegant, flowing lines and natural forms, aiming for a total art style that blends various elements harmoniously.
+Neo-Impressionism: Advances Impressionism's interests in light and color through scientific methods and structured brushwork." these movements and their descriptions in order.
+
+#6 Prompt
+
+#7 Prompt
+
+Image Prompts:
+
+#1 Logo Prompt
+
+Create a logo for a website that shows 12 art movements and gives a brief description of them. the logo should be compatible with a gold color. The logo should be a simple paintbrush and a paint palette.  
+
+#2 Image and Description Prompt
+
+Give 12 art movement examples. create images with the size of 150x200. you can use only beach images to create those representatives of the art movements. give names and brief one-sentence descriptions about them.
